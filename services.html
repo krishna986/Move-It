@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+         body{
+            margin: 0%;
+        }
+        .nav{
+            width: 100%;
+            height: 5rem;
+            background-color: rgb(200, 228, 248);
+            display: flex;
+            /* gap: 2rem; */
+            align-items: center;
+            padding: 10px;
+        }
+        .logoImg{
+            height: 50px;
+            vertical-align: middle;
+        }
+        .logoName{
+            text-decoration: none;
+            color: black;
+            font-size: 42px;
+        }
+        .navigation{
+            display: flex;
+            width: 85%;
+            align-items: center;
+        }
+        .navigation .navList{
+            width: 70%;
+        }
+        .navigation .searchButton{
+            margin: 0%;
+        }
+        .navigation li {
+            display: inline;
+            list-style: none;
+            margin-left: 10px;
+            padding: 0%;
+        }
+        .navigation li a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+            margin-right: 20px;
+        }
+        .navigation .searchButton .input1{
+            height: 3rem;
+            width: 15rem;
+            border: 2px solid black;
+            border-radius: 8px;
+            font-size: large;
+            padding: 1rem;
+        }
+        .navigation .searchButton .input2{
+            height: 3rem;
+            width: 6rem;
+            border: none;
+            border-radius: 8px;
+            font-size: large;
+            background-color: rgb(65, 65, 243);
+            color: white;
+        }
+        .body{
+            width: 100%;
+            height: 800px;
+            /* border: 2px solid black; */
+            font-size: 35px;
+            color: black;
+            text-align: center;
+        }
+        .body .card{
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            margin: 40px;
+            
+        }
+        .body .card .cards{
+            width: 40%;
+            height: 150px;
+            border-radius: 10px;
+            font-size: 20px;
+            display: flex;
+            gap: 40px;
+            text-align: left;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .footer{
+            width: 100%;
+            height: 250px;
+            background-color: rgb(200, 228, 248);
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: larger;
+            font-weight: 600;
+            
+            
+        }
+        .footer img{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- navigation bar  -->
+
+    <div class="nav">
+        <div class="logo">
+            <a href="./index.html" class="logoName">
+              <img class="logoImg" src="./assest/box-seam.svg">Move It
+            </a> 
+        </div>
+        <div class="navigation">
+            <div class="navList">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./contact.html">Contact us</a></li>
+                </ul> 
+            </div>
+            <div class="searchButton">
+                <input class="input1" type="search" placeholder="Pincode">
+                <input class="input2" type="button" value="Check">
+            </div>
+        </div>
+    </div>
+
+    <!-- services part -->
+
+    <div class="body">
+        <h1>Services in <span style="color: rgb(65, 65, 243);">MoveIt</span></h1>
+        <div class="card">
+            <div class="cards" style="background-color: rgb(196, 252, 221);">
+                <div><img src="./assest/24-hours.png" /></div>
+                <div>
+                    <h1>24/7 Avalaible</h1>
+                    <p>asdfghj asdfghjk zxcvbnm qwerty ghjk yuio.</p>
+                </div>
+            </div>
+            <div class="cards" style="background-color: rgb(247, 252, 191);">
+                <div><img src="./assest/delivery-truck.png" /></div>
+                <div>
+                    <h1>Delivery Truck</h1>
+                    <p>asdfghj asdfghjk zxcvbnm qwerty ghjk yuio.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cards" style="background-color: rgb(252, 217, 196);">
+                <div><img src="./assest/folder.png" /></div>
+                <div>
+                    <h1>Help</h1>
+                    <p>asdfghj asdfghjk zxcvbnm qwerty ghjk yuio.</p>
+                </div>
+            </div>
+            <div class="cards" style="background-color: rgb(196, 200, 252);">
+                <div><img src="./assest/package.png" /></div>
+                <div>
+                    <h1>Packing</h1>
+                    <p>asdfghj asdfghjk zxcvbnm qwerty ghjk yuio.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cards" style="background-color: rgb(196, 252, 249);">
+                <div><img src="./assest/protection.png" /></div>
+                <div>
+                    <h1>Protected</h1>
+                    <p>asdfghj asdfghjk zxcvbnm qwerty ghjk yuio.</p>
+                </div>
+            </div>
+            <div class="cards" style="background-color: rgb(252, 196, 196);">
+                <div><img src="./assest/shield.png" /></div>
+                <div>
+                    <h1>Safe and Secure</h1>
+                    <p>asdfghj asdfghjk zxcvbnm qwerty ghjk yuio.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="footer">
+        <div class="socialMedia">
+            <a href=""><img src="./assest/icons8-facebook-48.png"/></a>
+            <a href=""><img src="./assest/icons8-instagram-48.png"/></a>
+            <a href=""><img src="./assest/icons8-linkedin-48.png"/></a>
+            <a href=""><img src="./assest/icons8-github-48.png"/></a>
+            <p>Info<spna> | </spna>Support<spna> | </spna>Marketing</p>
+            <p>Terms of use<spna> | </spna>Privacy Policy</p>
+            <spna>@ 2023 Clarity Money</spna>
+        </div>
+        
+    </div>
+</body>
+</html>

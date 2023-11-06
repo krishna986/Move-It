@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moveit</title>
+    <style>
+        body{
+            margin: 0%;
+        }
+        .nav{
+            width: 100%;
+            height: 5rem;
+            background-color: rgb(200, 228, 248);
+            display: flex;
+            /* gap: 2rem; */
+            align-items: center;
+            padding: 10px;
+        }
+        .logoImg{
+            height: 50px;
+            vertical-align: middle;
+        }
+        .logoName{
+            text-decoration: none;
+            color: black;
+            font-size: 42px;
+        }
+        .navigation{
+            display: flex;
+            width: 85%;
+            align-items: center;
+        }
+        .navigation .navList{
+            width: 70%;
+        }
+        .navigation .searchButton{
+            margin: 0%;
+        }
+        .navigation li {
+            display: inline;
+            list-style: none;
+            margin-left: 10px;
+            padding: 0%;
+        }
+        .navigation li a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+            margin-right: 20px;
+        }
+        .navigation .searchButton .input1{
+            height: 3rem;
+            width: 15rem;
+            border: 2px solid black;
+            border-radius: 8px;
+            font-size: large;
+            padding: 1rem;
+        }
+        .navigation .searchButton .input2{
+            height: 3rem;
+            width: 6rem;
+            border: none;
+            border-radius: 8px;
+            font-size: large;
+            background-color: rgb(65, 65, 243);
+            color: white;
+        }
+
+        .body{
+            width: 100%;
+            height: 650px;
+            display: flex;
+            justify-content: center;
+        }
+        .body .container{
+            width: 50%;
+            height: 650px;
+            text-align: center;
+        }
+        .body .input1{
+            height: 3rem;
+            width: 12rem;
+            border: none;
+            border-radius: 8px;
+            font-size: larger;
+            padding: 1rem;
+            background-color: rgb(65, 65, 243);
+            color: white;
+            margin: 10px 30px;
+        }
+        .body .input2{
+            height: 3rem;
+            width: 12rem;
+            border: 2px solid black;
+            border-radius: 8px;
+            font-size: larger;
+            padding: 1rem;
+            margin: 10px 30px;
+        }
+
+        .moveWithUs{
+            background-color: rgb(109, 109, 249);
+            width: 100%;
+            height: 700px;
+            margin-top: 100px; 
+            text-align: center; 
+        }
+        .moveWithUs .cards{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        .moveWithUs .cards .card{
+            width: 30%;
+            height: 500px;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 20px;
+            
+        }
+        .moveWithUs .cards .card .cardImg{
+            width: 91%;
+            height: 80px;
+            background-color: rgb(109, 109, 249);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+        }
+        .footer{
+            width: 100%;
+            height: 250px;
+            background-color: rgb(200, 228, 248);
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: larger;
+            font-weight: 600;
+            margin-top: 1px;
+            
+        }
+        .footer img{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- navigation bar  -->
+
+    <div class="nav">
+        <div class="logo">
+            <a href="./index.html" class="logoName">
+              <img class="logoImg" src="./assest/box-seam.svg">Move It
+            </a> 
+        </div>
+        <div class="navigation">
+            <div class="navList">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./contact.html">Contact us</a></li>
+                </ul> 
+            </div>
+            <div class="searchButton">
+                <input class="input1" type="search" placeholder="Pincode">
+                <input class="input2" type="button" value="Check">
+            </div>
+        </div>
+    </div>
+
+    <!-- home page or landing page -->
+
+    <div class="body">
+        <div class="container">
+            <h1 style=" font-size: 60px;">Move With Joy</h1>
+            <p style="font-size: 25px;">Welcome to our website, where we are on a mission to provide exceptional moving services to customers in the US. As a startup, we believe that moving doesn't have to be stressful or complicated, and we are passionate about making the process as seamless and enjoyable as possible.</p>
+            <input class="input1" type="button" value="Get a Quote">
+            <a href="./contact.html"><input class="input2" type="button" value="Contact Us"></a>
+            <img src="./assest/moving-van.jpg" alt="moving bags" style="width: 100%; height: 300px; margin: 35px 0px;">
+        </div>
+    </div>
+
+    <!-- some details like why move with us page  -->
+
+    <div class="moveWithUs">
+        <br>
+        <h1 style="font-size: 3rem; margin: 40px ; color: white;">Why Move With Us?</h1>
+        <div class="cards">
+            <div class="card">
+                <div class="cardImg">
+                    <img src="./assest/briefcase.svg" alt="briefcase" style="height: 30px;">
+                    <h1 style="font-size: 40px; margin-left: 20px; color: white;">Professional</h1>
+                </div>
+                <p style="font-size: 24px; margin: 50px 20px;">Our team of professional movers are trained to prioritize efficiency, organization, and attention to detail. We understand that your possessions are more than just objects - they are a reflection of your life, memories, and experiences. That's why we take extra care to ensure that everything is packed and transported with the utmost care and attention.</p>
+                <a href="./index.html" style="font-size: 25px;">Get a Quote</a>
+            </div>
+            <div class="card">
+                <div class="cardImg">
+                    <img src="./assest/bus-front.svg" alt="briefcase" style="height: 30px;">
+                    <h1 style="font-size: 40px; margin-left: 20px; color: white;">Countrywide</h1>
+                </div>
+                <p style="font-size: 24px; margin: 50px 20px;">We offer a range of services to suit your individual needs, whether you're moving locally or across the country. Our team can handle everything from packing and loading to unloading and unpacking, so you can focus on settling into your new home. And with our transparent pricing and no hidden fees, you can trust that you're getting a fair and competitive rate for our services.</p>
+                <a href="./index.html" style="font-size: 25px;">Get a Quote</a>
+            </div>
+            <div class="card">
+                <div class="cardImg">
+                    <img src="./assest/chat-square-heart.svg" alt="briefcase" style="height: 30px;">
+                    <h1 style="font-size: 40px; margin-left: 20px; color: white;">Personal Touch</h1>
+                </div>
+                <p style="font-size: 24px; margin: 50px 20px;">At our core, we believe that moving should be an exciting and positive experience, not a stressful one. By providing exceptional moving services in the US, we hope to revolutionize the way people think about moving and provide a better, more personalized experience for our customers. Contact us today to learn more about how we can help you with your next move.</p>
+                <a href="./index.html" style="font-size: 25px;">Get a Quote</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer part -->
+
+    <div class="footer">
+        <div class="socialMedia">
+            <a href=""><img src="./assest/icons8-facebook-48.png"/></a>
+            <a href=""><img src="./assest/icons8-instagram-48.png"/></a>
+            <a href=""><img src="./assest/icons8-linkedin-48.png"/></a>
+            <a href=""><img src="./assest/icons8-github-48.png"/></a>
+            <p>Info<spna> | </spna>Support<spna> | </spna>Marketing</p>
+            <p>Terms of use<spna> | </spna>Privacy Policy</p>
+            <spna>@ 2023 Clarity Money</spna>
+        </div>
+        
+    </div>
+</body>
+</html>

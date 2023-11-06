@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+         body{
+            margin: 0%;
+        }
+        .nav{
+            width: 100%;
+            height: 5rem;
+            background-color: rgb(200, 228, 248);
+            display: flex;
+            /* gap: 2rem; */
+            align-items: center;
+            padding: 10px;
+        }
+        .logoImg{
+            height: 50px;
+            vertical-align: middle;
+        }
+        .logoName{
+            text-decoration: none;
+            color: black;
+            font-size: 42px;
+        }
+        .navigation{
+            display: flex;
+            width: 85%;
+            align-items: center;
+        }
+        .navigation .navList{
+            width: 70%;
+        }
+        .navigation .searchButton{
+            margin: 0%;
+        }
+        .navigation li {
+            display: inline;
+            list-style: none;
+            margin-left: 10px;
+            padding: 0%;
+        }
+        .navigation li a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+            margin-right: 20px;
+        }
+        .navigation .searchButton .input1{
+            height: 3rem;
+            width: 15rem;
+            border: 2px solid black;
+            border-radius: 8px;
+            font-size: large;
+            padding: 1rem;
+        }
+        .navigation .searchButton .input2{
+            height: 3rem;
+            width: 6rem;
+            border: none;
+            border-radius: 8px;
+            font-size: large;
+            background-color: rgb(65, 65, 243);
+            color: white;
+        }
+        .body{
+            width: 100%;
+            height: 800px;
+            /* border: 2px solid black; */
+            font-size: 30px;
+            color: black;
+            text-align: center;
+        }
+        .body .card{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 80px;
+            
+        }
+        .body .card .cards{
+            width: 40%;
+            height: 600px;
+            border: 2px solid black;
+        }
+        .body .card .cards img{
+            width: 100%;
+        }
+        .footer{
+            width: 100%;
+            height: 250px;
+            background-color: rgb(200, 228, 248);
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: larger;
+            font-weight: 600;
+            
+            
+        }
+        .footer img{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- navigation bar  -->
+
+    <div class="nav">
+        <div class="logo">
+            <a href="./index.html" class="logoName">
+              <img class="logoImg" src="./assest/box-seam.svg">Move It
+            </a> 
+        </div>
+        <div class="navigation">
+            <div class="navList">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./contact.html">Contact us</a></li>
+                </ul> 
+            </div>
+            <div class="searchButton">
+                <input class="input1" type="search" placeholder="Pincode">
+                <input class="input2" type="button" value="Check">
+            </div>
+        </div>
+    </div>
+
+    <div class="body">
+        <h1>Learn everything about <span style="color: rgb(65, 65, 243);">MoveIt</span></h1>
+        <div class="card">
+            <div class="cards">
+                <img src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2018/03/3-15-1.jpg" style="height: 350px;"/>
+                <div style="margin: 10px 20px;">
+                    <h4 style="color: black;">How Does Courier, Parcel, and Package Tracking System</h4>
+                    <p style="color: black; font-size: 20px;">For a seamless eCommerce shopping experience, it is essential to deliver the product promptly to the customer. And that’s where…</p>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2016/12/shipping_terminology-1.jpg"/>
+                <div style="margin: 10px 20px;">
+                    <h4 style="color: black;">Understanding The Basic Shipping Terms</h4>
+                    <p style="color: black; font-size: 20px;">The process of ordering goods online and receiving them at your doorstep is an amazing process that requires smooth coordination…</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="footer">
+        <div class="socialMedia">
+            <a href=""><img src="./assest/icons8-facebook-48.png"/></a>
+            <a href=""><img src="./assest/icons8-instagram-48.png"/></a>
+            <a href=""><img src="./assest/icons8-linkedin-48.png"/></a>
+            <a href=""><img src="./assest/icons8-github-48.png"/></a>
+            <p>Info<spna> | </spna>Support<spna> | </spna>Marketing</p>
+            <p>Terms of use<spna> | </spna>Privacy Policy</p>
+            <spna>@ 2023 Clarity Money</spna>
+        </div>
+        
+    </div>
+</body>
+</html>

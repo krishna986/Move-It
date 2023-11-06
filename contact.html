@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <style>
+        body{
+            margin: 0%;
+        }
+        .nav{
+            width: 100%;
+            height: 5rem;
+            background-color: rgb(200, 228, 248);
+            display: flex;
+            /* gap: 2rem; */
+            align-items: center;
+            padding: 10px;
+        }
+        .logoImg{
+            height: 50px;
+            vertical-align: middle;
+        }
+        .logoName{
+            text-decoration: none;
+            color: black;
+            font-size: 42px;
+        }
+        .navigation{
+            display: flex;
+            width: 85%;
+            align-items: center;
+        }
+        .navigation .navList{
+            width: 70%;
+        }
+        .navigation .searchButton{
+            margin: 0%;
+        }
+        .navigation li {
+            display: inline;
+            list-style: none;
+            margin-left: 10px;
+            padding: 0%;
+        }
+        .navigation li a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+            margin-right: 20px;
+        }
+        .navigation .searchButton .input1{
+            height: 3rem;
+            width: 15rem;
+            border: 2px solid black;
+            border-radius: 8px;
+            font-size: large;
+            padding: 1rem;
+        }
+        .navigation .searchButton .input2{
+            height: 3rem;
+            width: 6rem;
+            border: none;
+            border-radius: 8px;
+            font-size: large;
+            background-color: rgb(65, 65, 243);
+            color: white;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1e2a38;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #1e2a38;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #34465d;
+        }
+
+        .footer{
+            width: 100%;
+            height: 250px;
+            background-color: rgb(200, 228, 248);
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: larger;
+            font-weight: 600;
+            
+            
+        }
+        .footer img{
+            margin: 20px;
+        }
+
+        /* Add more styling as needed for your specific design */
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <a href="./index.html" class="logoName">
+              <img class="logoImg" src="./assest/box-seam.svg">Move It
+            </a> 
+        </div>
+        <div class="navigation">
+            <div class="navList">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./contact.html">Contact us</a></li>
+                </ul> 
+            </div>
+            <div class="searchButton">
+                <input class="input1" type="search" placeholder="Pincode">
+                <input class="input2" type="button" value="Check">
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <h1>Contact Us & Feedback</h1>
+    </header>
+    <div class="container">
+        <h2>Contact Information</h2>
+        <label>Name</label><input type="text"/>
+        <label>E-mail</label><input type="email"/>
+        <label>Subject</label><input type="text"/>
+        <label>Message</label><input type="text"/>
+        <input type="submit" value="Send"/>
+
+        <h2>Feedback Form</h2>
+        <input type="text" />
+        <input type="submit" />
+    </div>
+
+    <div class="footer">
+        <div class="socialMedia">
+            <a href=""><img src="./assest/icons8-facebook-48.png"/></a>
+            <a href=""><img src="./assest/icons8-instagram-48.png"/></a>
+            <a href=""><img src="./assest/icons8-linkedin-48.png"/></a>
+            <a href=""><img src="./assest/icons8-github-48.png"/></a>
+            <p>Info<spna> | </spna>Support<spna> | </spna>Marketing</p>
+            <p>Terms of use<spna> | </spna>Privacy Policy</p>
+            <spna>@ 2023 Clarity Money</spna>
+        </div>
+        
+    </div>
+</body>
+</html>
